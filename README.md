@@ -15,7 +15,6 @@ Se busca aplicar los principios básicos de diseño y demostrar el dominio en el
 La estructura del proyecto sigue las directrices de entrega, organizada para una clara separación de la lógica, estilos y recursos multimedia:
 
 ```
-```
 P2_PrimerApellido_Nombre/
 ├── index.html
 ├── secundaria.html
@@ -32,7 +31,6 @@ P2_PrimerApellido_Nombre/
 │   └── iconos/
 │       └── ejemplo.svg
 └── README.md
-```
 ```
 
 ## Tecnologías Usadas
