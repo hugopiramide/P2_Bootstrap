@@ -84,6 +84,7 @@ label{
     font-weight: 600;
 }
 
+/* Text colors */
 .text-color-blue{
     color: #0066CC !important;
 }
@@ -92,6 +93,7 @@ label{
     color: #2755A2;
 }
 
+/* Backgrounds */
 .bg-dark{
     background-color: #221E1F !important;
 }
