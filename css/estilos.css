@@ -9,7 +9,7 @@ h1{
 }
 
 h2{
-    font-size: 24px;
+    font-size: 32px;
     padding-bottom: 15px;
 }
 
@@ -96,10 +96,14 @@ label{
     background-color: #221E1F !important;
 }
 
+.bg-blue{
+    background-color: #0066CC !important;
+}
+
 .bg-grey{
     background-color: #f7f8f9 !important;
 }
 
-.bg-blue{
-    background-color: #2755A2 !important;
+.bg-blue-dark{
+    background-color: #2755A2;
 }
