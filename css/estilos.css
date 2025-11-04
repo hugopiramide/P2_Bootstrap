@@ -75,6 +75,18 @@ label{
     padding: 85px 0 !important;
 }
 
+.fw-600{
+    font-weight: 600;
+}
+
+.text-color-blue{
+    color: #0066CC !important;
+}
+
+.text-color-blue-dark{
+    color: #2755A2;
+}
+
 .bg-dark{
     background-color: #221E1F !important;
 }
