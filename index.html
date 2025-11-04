@@ -74,7 +74,7 @@
             </div>
         </section>
         
-        <section id="introduccion" class="container my-5">
+        <section id="introduccion" class="container my-5 mb-5">
             <h2 class="mb-3">¿Qué es la Accesibilidad Web?</h2>
             <p class="lead">La Accesibilidad Web es la práctica inclusiva de diseñar y desarrollar sitios web, herramientas y tecnologías para que <span class="fw-600 text-color-blue">cualquier persona</span> , independientemente de sus capacidades, la tecnología que use o las circunstancias de su entorno,<span class="fw-600 text-color-blue"> pueda percibir, comprender, navegar e interactuar </span> con la web.
                     <br><br>
@@ -113,6 +113,36 @@
                     </div>
                 </article>
             </div>
+        </section>
+
+        <section id="formulario-contacto" class="container my-5 bg-light p-4 rounded" aria-labelledby="titulo-contacto">
+            <h2 id="titulo-contacto" class="mb-4">Consulta Rápida sobre Accesibilidad</h2>
+            <form action="mailto:monicaperezprofeciclos@gmial.com" method="POST">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" aria-required="true">
+                </div>
+                <div class="mb-3">
+                    <label for="tipoConsulta" class="form-label">Tipo de Consulta</label>
+                    <select class="form-select" id="tipoConsulta" name="tipoConsulta" aria-required="true">
+                        <option selected>Elige una opción...</option>
+                        <option value="1">WCAG</option>
+                        <option value="2">Usabilidad</option>
+                        <option value="3">Otros</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" aria-required="true"></textarea>
+                </div>
+                 <div class="form-check mb-4">
+                    <input class="form-check-input" type="checkbox" value="" id="aceptarPolitica" required>
+                    <label class="form-check-label" for="aceptarPolitica">
+                        Acepto la política de privacidad.
+                    </label>
+                </div>
+                <button type="submit" class="btn-blue ">Enviar Consulta &nbsp; <i class="bi bi-send-fill"></i></button>
+            </form>
         </section>
 
     </main>

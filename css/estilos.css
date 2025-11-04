@@ -41,6 +41,7 @@ button{
 
 .btn-blue{
     background-color: #0066CC;
+    border-radius: 10px;
     color: #f8f9fa;
     transition: 0.1s linear;
 }
@@ -68,8 +69,7 @@ input{
 }
 
 label{
-    color: rgb(155, 155, 155);
-    padding-bottom: 15px;
+    color: rgb(59, 59, 59);
 }
 
 #banner-principal{
