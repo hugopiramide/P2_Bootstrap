@@ -5,6 +5,8 @@ body{
 
 h1{
     font-size: 32px; 
+    margin: 0;
+    padding: 0;
 }
 
 h2{
@@ -68,4 +70,8 @@ input{
 label{
     color: rgb(155, 155, 155);
     padding-bottom: 15px;
+}
+
+.bg-nav{
+    background-color: #221E1F;
 }
