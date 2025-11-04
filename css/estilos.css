@@ -56,9 +56,16 @@ button{
 }
 
 .btn-white:hover{
-    box-shadow: 
-        -4px 4px 4px rgba(100, 149, 255, 0.45),
-        0px 6px 5px rgba(100, 149, 255, 0.45), 
-        4px 4px 4px rgba(100, 149, 255, 0.45);
+    box-shadow: 0px 6px 5px rgba(100, 149, 255, 0.45); 
     transition: 0.1s linear;
+}
+
+input{
+    border: 1px solid #0066CC;
+    border-radius: 2px;
+}
+
+label{
+    color: rgb(155, 155, 155);
+    padding-bottom: 15px;
 }
