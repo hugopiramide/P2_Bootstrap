@@ -10,6 +10,7 @@ h1{
 
 h2{
     font-size: 24px;
+    padding-bottom: 15px;
 }
 
 h3{
@@ -71,6 +72,10 @@ label{
     padding-bottom: 15px;
 }
 
+#banner-principal{
+    padding-bottom: 20px;
+}
+
 .carousel-item > div{
     padding: 115px 0 !important;
 }
@@ -90,9 +95,11 @@ label{
 .bg-dark{
     background-color: #221E1F !important;
 }
+
 .bg-grey{
     background-color: #f7f8f9 !important;
 }
+
 .bg-blue{
     background-color: #2755A2 !important;
 }
