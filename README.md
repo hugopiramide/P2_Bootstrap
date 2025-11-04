@@ -42,5 +42,5 @@ La práctica se ha desarrollado utilizando las siguientes tecnologías:
   - Bootstrap 5: Framework principal para el diseño responsive, posicionamiento y uso de componentes.
     - Componentes mínimos utilizados: Carousel, Modal, Tooltip, Navegación desplegable, Grupo de Botones, Formulario, Tabla estilizada.
     - Iconos: Uso de Iconos específicos de Bootstrap.
-  - Diseño: Implementación de una Guía de Estilos definida previamente (Colores: Inter Bold, Open Sans Regular , Paleta de Colores , etc.).
+  - Diseño: Implementación de una Guía de Estilos definida previamente.
   - Control de Versiones: Git para el desarrollo progresivo y gestión de versiones.
