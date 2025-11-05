@@ -43,7 +43,28 @@
             <div class="p-3 mb-3 bg-light rounded">
                 <p class="mb-0">Las <span class="text-color-blue fw-600">leyes de accesibilidad</span> varían según el país, pero la mayoría tiene como objetivo garantizar que las personas con discapacidades tengan igualdad de acceso a la información y a los servicios que se ofrecen a través de internet.</p>
             </div>
+            <button type="button" class="btn-white" data-bs-toggle="modal" data-bs-target="#modal">
+                Ley de Accesibilidad <i class="bi bi-info-circle-fill"></i>
+            </button>
         </section>
+
+        <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Legislación</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    </div>
+                    <div class="modal-body">
+                        <a href="https://www.w3.org/TR/WCAG21/" target="_blank">WCAG</a><br>
+                        <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699" target="_blank">Española</a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn-white" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <section id="niveles-conformidad" class="mb-5 mt-5">
             <h2 class="mb-3">Niveles de Conformidad (WCAG)</h2>
