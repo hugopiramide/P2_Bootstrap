@@ -47,4 +47,4 @@ La práctica se ha desarrollado utilizando las siguientes tecnologías:
 
 ## Páginas web de referencia 
 
-[StudioPress](https://www.studiopress.com/) - Inspiración principal, colores, botones y apariencia genérica.
+<a href="https://www.studiopress.com/" target="_blank">StudioPress</a> - Inspiración principal, colores, botones y apariencia genérica.
