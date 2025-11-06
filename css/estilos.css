@@ -71,6 +71,7 @@ input,select,textarea{
 
 label{
     color: rgb(59, 59, 59);
+    margin-bottom: 10px;
 }
 
 #banner-principal{
