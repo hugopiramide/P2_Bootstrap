@@ -44,3 +44,7 @@ La práctica se ha desarrollado utilizando las siguientes tecnologías:
     - Iconos: Uso de Iconos específicos de Bootstrap.
   - Diseño: Implementación de una Guía de Estilos definida previamente.
   - Control de Versiones: Git para el desarrollo progresivo y gestión de versiones.
+
+## Páginas web de referencia 
+
+[StudioPress](https://www.studiopress.com/) - Inspiración principal, colores, botones y apariencia genérica.
