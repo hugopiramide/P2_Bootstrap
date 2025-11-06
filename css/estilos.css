@@ -40,6 +40,11 @@ button{
     text-decoration: none;
 }
 
+.logo{
+    object-fit: cover;
+    height: 50px;
+}
+
 .navbar{
     box-shadow: 0 8px 6px -6px #999;
 }
