@@ -34,7 +34,7 @@
 
     <main>
         <section class="mb-5" aria-label="Presentación principal">
-            <div class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -120,7 +120,7 @@
                     <input type="text" class="form-control" id="nombre" name="nombre" aria-required="true">
                 </div>
                 <div class="mb-3">
-                    <label for="tipoConsulta">Tipo de Consulta</label>
+                    <label for="tipoConsulta" class="form-label">Tipo de Consulta</label>
                     <select class="form-select" id="tipoConsulta" name="tipoConsulta" aria-required="true">
                         <option selected>Elige una opción...</option>
                         <option value="1">WCAG</option>
