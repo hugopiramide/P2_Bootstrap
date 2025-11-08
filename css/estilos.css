@@ -40,6 +40,10 @@ button{
     text-decoration: none;
 }
 
+small{
+    
+}
+
 .logo{
     object-fit: cover;
     height: 50px;
