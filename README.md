@@ -23,11 +23,9 @@ P2_PrimerApellido_Nombre/
 │   └── estilos.css
 ├── multimedia/
 │   ├── img/
-│   │   ├── banner1.jpg
-│   │   ├── banner2.jpg
-│   │   ├── accesibilidad1.jpg
-│   │   ├── accesibilidad2.jpg
-│   │   └── comparativa.jpg
+│   │   ├── bad-desing.png
+│   │   ├── good-desing.png
+│   │   ├── logo.png
 │   └── iconos/
 │       └── ejemplo.svg
 └── README.md
