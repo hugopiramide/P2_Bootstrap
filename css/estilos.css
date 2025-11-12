@@ -35,14 +35,10 @@ button{
     width: auto;
     font-weight: 700;
     border-radius: 2px;
-    border: 0;
+    border: 5px;
     padding: 12px 24px 10px;
     text-align: center;
     text-decoration: none;
-}
-
-small{
-    
 }
 
 .logo{
@@ -60,7 +56,6 @@ small{
 
 .btn-blue{
     background-color: #0066CC;
-    border-radius: 10px;
     color: #f8f9fa;
     transition: 0.1s linear;
 }
