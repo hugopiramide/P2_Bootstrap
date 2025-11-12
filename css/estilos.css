@@ -1,8 +1,9 @@
+/* Color del texto y Fuente de texto de la web */
 body{
     font-family: Poppins;
     color: #221E1F;
 }
-
+/* Headers definidos */
 h1{
     font-size: 62px; 
     padding-bottom: 15px;
@@ -30,7 +31,7 @@ h5{
 p{
     font-size: 15px;
 }
-
+/* Buttons genericos para toda la web */
 button{
     width: auto;
     font-weight: 700;
@@ -40,20 +41,7 @@ button{
     text-align: center;
     text-decoration: none;
 }
-
-.logo{
-    object-fit: cover;
-    height: 50px;
-}
-
-#comparativaVisual img{
-    object-fit: cover;
-}
-
-.navbar{
-    box-shadow: 0 8px 6px -6px #999;
-}
-
+/* Clases personalizadas para los tipos de botones */
 .btn-blue{
     background-color: #0066CC;
     color: #f8f9fa;
@@ -76,7 +64,20 @@ button{
     box-shadow: 0px 6px 5px rgba(100, 149, 255, 0.45); 
     transition: 0.1s linear;
 }
+/* Logo de la web */
+.logo{
+    object-fit: cover;
+    height: 50px;
+}
 
+#comparativaVisual img{
+    object-fit: cover;
+}
+
+.navbar{
+    box-shadow: 0 8px 6px -6px #999;
+}
+/*  */
 input,select,textarea{
     border: 1px solid #0066CC !important;
     border-radius: 2px !important;
