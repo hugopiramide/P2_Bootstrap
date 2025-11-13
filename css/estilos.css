@@ -32,10 +32,6 @@ p{
     font-size: 15px;
 }
 
-article {
-    background-color: #f8f9fa;
-}
-
 /* Buttons genericos para toda la web */
 button{
     width: auto;
@@ -117,7 +113,7 @@ label{
 }
 
 .bg-grey{
-    background-color: #f7f8f9 !important;
+    background-color: #f8f9fa !important;
 }
 
 .bg-blue-dark{
