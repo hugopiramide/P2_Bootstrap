@@ -77,7 +77,7 @@ button{
 .navbar{
     box-shadow: 0 8px 6px -6px #999;
 }
-/*  */
+/* Para los form que se hagan dentro de la web */
 input,select,textarea{
     border: 1px solid #0066CC !important;
     border-radius: 2px !important;
