@@ -74,7 +74,7 @@ button{
 #comparativaVisual img{
     object-fit: cover;
 }
-
+/* Estilo para cada imagen del carrusel */
 .carousel-img {
     height: 40vh;
     width: 100vw;
