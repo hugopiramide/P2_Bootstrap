@@ -26,6 +26,9 @@ P2_PrimerApellido_Nombre/
 │   │   ├── bad-desing.png
 │   │   ├── good-desing.png
 │   │   ├── logo.png
+│   │   ├── carousel-1.jpg
+│   │   ├── carousel-2.jpg
+│   │   └── carousel-3.jpg
 │   └── iconos/
 │       └── ejemplo.svg
 └── README.md
