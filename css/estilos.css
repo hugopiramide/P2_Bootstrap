@@ -75,7 +75,7 @@ button{
     object-fit: cover;
 }
 
-.carousel-img img{
+.carousel-img {
     height: 40vh;
     width: 100vw;
     object-fit: cover;
