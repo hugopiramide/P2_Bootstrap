@@ -75,6 +75,13 @@ button{
     object-fit: cover;
 }
 
+.carousel-img img{
+    height: 40vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
 /* Para los form que se hagan dentro de la web */
 input,select,textarea{
     border: 1px solid #0066CC !important;
