@@ -70,10 +70,6 @@ button{
     object-fit: cover;
     height: 50px;
 }
-
-#comparativaVisual img{
-    object-fit: cover;
-}
 /* Estilo para cada imagen del carrusel */
 .carousel-img {
     height: 40vh;
@@ -91,10 +87,6 @@ input,select,textarea{
 label{
     color: rgb(59, 59, 59);
     margin-bottom: 10px;
-}
-
-#banner-principal{
-    padding-bottom: 20px;
 }
 
 .carousel-item > div{
