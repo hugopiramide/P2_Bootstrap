@@ -34,9 +34,10 @@
         </nav>
     </header>
 
+    <!-- Contenido principal de Normativas y Buenas Prácticas -->
     <main class="container">
+        <!-- Texto introductorio a las Normativas y Buenas Prácticas -->
         <h1 id="buenasPracticas" class="mb-4 mt-5">Normativas y Buenas Prácticas</h1>
-
         <section class="mb-5">
             <h2>Resumen de la Normativa Básica</h2>
             <article class="p-3 mb-3 bg-grey rounded">
@@ -45,21 +46,26 @@
             <article class="p-3 mb-3 bg-grey rounded">
                 <p class="mb-0">La <span class="text-color-blue fw-bold">Ley de Accesibilidad Web</span> busca garantizar que todas las personas, incluyendo aquellas con discapacidad, puedan acceder a los sitios web y aplicaciones. Esta normativa establece criterios y requisitos que deben cumplir estas plataformas en España. El objetivo es eliminar las barreras digitales y promover la inclusión. A través de un marco normativo claro, se busca que la tecnología sea accesible y útil para todos los ciudadanos sin distinción.</p>
             </article>
+            <!-- Button para llamar al modal -->
             <button type="button" class="btn-white" data-bs-toggle="modal" data-bs-target="#modal">
                 Normativa de Accesibilidad <i class="bi bi-info-circle-fill"></i>
             </button>
         </section>
 
+        <!-- Modal sobre la Legislación Española -->
         <div class="modal fade" id="modal" tabindex="-1">
             <div class="modal-dialog">
                 <div class="modal-content">
+                    <!-- Title del modal -->
                     <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLabel">Legislación Española</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
+                    <!-- Contenido del modal -->
                     <div class="modal-body">
                         <p>Real Decreto 193/2023, de 21 de marzo, por el que se regulan las condiciones básicas de accesibilidad y no discriminación de las personas con discapacidad para el acceso y utilización de los bienes y servicios a disposición del público</p>
                     </div>
+                    <!-- Button para poder cerrar el modal -->
                     <div class="modal-footer">
                         <button type="button" class="btn-white" data-bs-dismiss="modal">Cerrar</button>
                     </div>
@@ -67,6 +73,7 @@
             </div>
         </div>
 
+        <!-- Tabal con los niveles de accesibilidad -->
         <section class="mb-5 mt-5">
             <h2 id="nivelesConformidad">Niveles de Conformidad (WCAG)</h2>
             <div class="table-responsive">
@@ -96,6 +103,7 @@
             </div>
         </section>
 
+        <!-- Links a Recursos Oficiales -->
         <section class="mb-5">
             <h2 id="recursosOficiales">Recursos Oficiales</h2>
             <ul class="list-group">
@@ -105,34 +113,35 @@
             </ul>
         </section>
 
-
-    <section class="mb-5 object-fit-cover">
-        <h2>Comparativa Visual</h2>
-        <p>Comparativa visual entre un mal diseño y un diseño accesible.</p>
-        <div class="row g-0">
-            <div class="col-md-6 shadow">
-                <img src="./multimedia/img/bad-design-web.png" alt="Ejemplo de mal diseño web" class="w-100 h-100">
+        <!-- Comparativa entre 2 imagenes sobre webs accesibles y no accesibles -->
+        <section class="mb-5 object-fit-cover">
+            <h2>Comparativa Visual</h2>
+            <p>Comparativa visual entre un mal diseño y un diseño accesible.</p>
+            <div class="row g-0">
+                <div class="col-md-6 shadow">
+                    <img src="./multimedia/img/bad-design-web.png" alt="Ejemplo de mal diseño web" class="w-100 h-100">
+                </div>
+                <div class="col-md-6 shadow">
+                    <img src="./multimedia/img/good-design-web.png" alt="Ejemplo de buen diseño web y accesible" class="w-100 h-100">
+                </div>
             </div>
-            <div class="col-md-6 shadow">
-                <img src="./multimedia/img/good-design-web.png" alt="Ejemplo de buen diseño web y accesible" class="w-100 h-100">
-            </div>
-        </div>
 
-        <div class="row g-4 mt-5">
-            <section class="col-md-6 text-center">
-                <h3>Diseño no Accesible</h3>
-                <small>
-                    Esta web es un experimento artistico de la escuela de Yale. Muestra cómo la complejidad visual, la falta de estructura lógica y la inconsistencia no solo frustran a cualquier usuario, sino que crean barreras insuperables para aquellos que dependen de tecnologías de asistencia. Este sacrifica por completo la funcionalidad y la usabilidad.
-                </small>
-            </section>
-            <section class="col-md-6 text-center">
-                <h3>Diseño Accesible</h3>
-                <small>
-                    Esta web representa la claridad y la sencillez. Combinacion de colores, estrucura lógica y usable. El usuario no requiere de pensar al entrar en esta web, sino que esta te guia. Cuando un diseño es verdaderamente exitoso, el usuario se enfoca en el contenido y la información, no en descifrar cómo funciona la interfaz.
-                </small>
-            </section>
-        </div>
-    </section>
+            <!-- Breve texto sobre cada una de las webs -->
+            <div class="row g-4 mt-5">
+                <section class="col-md-6 text-center">
+                    <h3>Diseño no Accesible</h3>
+                    <small>
+                        Esta web es un experimento artistico de la escuela de Yale. Muestra cómo la complejidad visual, la falta de estructura lógica y la inconsistencia no solo frustran a cualquier usuario, sino que crean barreras insuperables para aquellos que dependen de tecnologías de asistencia. Este sacrifica por completo la funcionalidad y la usabilidad.
+                    </small>
+                </section>
+                <section class="col-md-6 text-center">
+                    <h3>Diseño Accesible</h3>
+                    <small>
+                        Esta web representa la claridad y la sencillez. Combinacion de colores, estrucura lógica y usable. El usuario no requiere de pensar al entrar en esta web, sino que esta te guia. Cuando un diseño es verdaderamente exitoso, el usuario se enfoca en el contenido y la información, no en descifrar cómo funciona la interfaz.
+                    </small>
+                </section>
+            </div>
+        </section>
 
     </main>    
     
