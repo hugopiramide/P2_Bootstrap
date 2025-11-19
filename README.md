@@ -18,19 +18,17 @@ La estructura del proyecto sigue las directrices de entrega, organizada para una
 P2_PrimerApellido_Nombre/
 ├── index.html
 ├── secundaria.html
-├── guia_estilos.pdf
+├── guia_estilos.png
 ├── css/
 │   └── estilos.css
 ├── multimedia/
-│   ├── img/
-│   │   ├── bad-desing.png
-│   │   ├── good-desing.png
-│   │   ├── logo.png
-│   │   ├── carousel-1.jpg
-│   │   ├── carousel-2.jpg
-│   │   └── carousel-3.jpg
-│   └── iconos/
-│       └── ejemplo.svg
+│   └── img/
+│       ├── bad-desing.png
+│       ├── good-desing.png
+│       ├── logo.png
+│       ├── carousel-1.jpg
+│       ├── carousel-2.jpg
+│       └── carousel-3.jpg
 └── README.md
 ```
 
