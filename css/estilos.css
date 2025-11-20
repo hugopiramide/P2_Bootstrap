@@ -73,7 +73,6 @@ button{
 /* Estilo para cada imagen del carrusel */
 .carousel-img {
     height: 40vh;
-    width: 100vw;
     object-fit: cover;
     filter: brightness(60%);
 }
